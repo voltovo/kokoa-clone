@@ -15,24 +15,24 @@
         margin: 50px;
       }
       div {
-        width: 300px;
-        height: 300px;
+        width: 150px;
+        height: 150px;
         background-color: wheat;
         position: relative;
       }
-      .green {
+      div:first-child {
+        background-color: tomato;
+      }
+      div:last-child {
         background-color: teal;
-        position: absolute;
-        right: 0px;
-        height: 100px;
-        width: 100px;
-        opacity: 0.5;
       }
     </style>
   </head>
   <body>
-    <div>
-      <div class="green"></div>
-    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
   </body>
 </html>
