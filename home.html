@@ -14,25 +14,24 @@
         height: 1000vh;
         margin: 50px;
       }
-      div {
-        width: 150px;
-        height: 150px;
-        background-color: wheat;
-        position: relative;
-      }
-      div:first-child {
+      span {
         background-color: tomato;
       }
-      div:last-child {
+      /* even : 짝수, odd: 홀수 */
+      span:nth-child(3n + 1) {
         background-color: teal;
       }
     </style>
   </head>
   <body>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
+    <span>hello</span>
   </body>
 </html>
