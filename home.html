@@ -15,23 +15,24 @@
         margin: 50px;
       }
       span {
-        background-color: tomato;
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: underline;
       }
-      /* even : 짝수, odd: 홀수 */
-      span:nth-child(3n + 1) {
-        background-color: teal;
+      p span {
+        color: white;
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
+    <div>
+      <span>hello</span>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <span>inside</span>
+      </p>
+    </div>
   </body>
 </html>
