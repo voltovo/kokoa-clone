@@ -14,20 +14,23 @@
         height: 1000vh;
         margin: 50px;
       }
-      a:visited {
-        color: tomato;
+
+      form {
+        border: 1px solid salmon;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
       }
-      a:hover {
-        color: teal;
-      }
-      a:focus {
-        color: turquoise;
+      form:focus-within {
+        border-color: seagreen;
       }
     </style>
   </head>
   <body>
-    <div>
-      <a href="http://apple.com">Go to apple</a>
-    </div>
+    <form>
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
+    </form>
   </body>
 </html>
