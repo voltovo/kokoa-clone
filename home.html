@@ -10,26 +10,14 @@
     <meta name="description" content="This is my website" />
     <meta charset="utf-8" />
     <style>
-      a {
-        color: wheat;
-        background-color: tomato;
-        text-decoration: none;
-        padding: 3px 5px;
-        border-radius: 5px;
-        font-size: 55px;
-        /* https://matthewlein.com/tools/ceaser 사이트 참고해서 애니메이션 효과 주기
-            cubic-bezier(0.600, -0.280, 0.735, 0.045); = easeInBack */
-        transition: color 1s cubic-bezier(0.6, -0.28, 0.735, 0.045),
-          border-radius 5s ease-in-out, background-color 10s ease-in-out;
-      }
-      a:hover {
-        border-radius: 20px;
-        color: tomato;
-        background-color: wheat;
+      img {
+        border: 5px solid black;
+        border-radius: 50%;
+        transform: rotateY(60deg);
       }
     </style>
   </head>
   <body>
-    <a href="#">Go Home</a>
+    <img src="https://nomadcoders.co/m.png" />
   </body>
 </html>
