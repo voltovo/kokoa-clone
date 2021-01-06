@@ -10,15 +10,18 @@
     <meta name="description" content="This is my website" />
     <meta charset="utf-8" />
     <style>
+      @keyframes superSexyCoinFlip {
+        from {
+          transform: rotateY(0);
+        }
+        to {
+          transform: rotateY(360deg);
+        }
+      }
       img {
         border: 5px solid black;
         border-radius: 50%;
-        transition: transform 2s ease-in-out;
-      }
-      img:hover {
-        /* https://developer.mozilla.org/ko/docs/Web/CSS/transform
-          사이트 참고해서 transform 적용 */
-        transform: rotateX(360deg) scale(0.5);
+        animation: superSexyCoinFlip 5s ease-in-out infinite;
       }
     </style>
   </head>
