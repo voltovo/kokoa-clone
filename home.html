@@ -17,7 +17,10 @@
         padding: 3px 5px;
         border-radius: 5px;
         font-size: 55px;
-        transition: all 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        /* https://matthewlein.com/tools/ceaser 사이트 참고해서 애니메이션 효과 주기
+            cubic-bezier(0.600, -0.280, 0.735, 0.045); = easeInBack */
+        transition: color 1s cubic-bezier(0.6, -0.28, 0.735, 0.045),
+          border-radius 5s ease-in-out, background-color 10s ease-in-out;
       }
       a:hover {
         border-radius: 20px;
