@@ -5,3 +5,13 @@
 body {
   font-family: "Yusei Magic", sans-serif;
 }
+
+.welcome-header {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
