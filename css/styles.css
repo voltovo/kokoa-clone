@@ -34,4 +34,9 @@ body {
   border: none;
   padding: 15px 0px;
   font-size: 18px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+#login-form input::placeholder {
+  color: rgb(0, 0, 0, 0.4);
 }
