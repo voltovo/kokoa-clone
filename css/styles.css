@@ -54,4 +54,14 @@ body {
 #login-form input[type="submit"] {
   background-color: var(--yellow);
   cursor: pointer;
+  padding: 20px 0px;
+  border-radius: 10px;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  /* inherit 는 상속 , 부모의 default color = black */
+  color: inherit;
+  font-size: 13px;
 }
