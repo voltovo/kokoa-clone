@@ -50,3 +50,8 @@ body {
 #login-form input:focus {
   border-color: var(--yellow);
 }
+
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: pointer;
+}
